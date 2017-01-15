@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+          <head>
+                    <title>
+		Forms
+	    </title>
+          </head>
+          <body>
+	    <form>
+	            <fieldset>
+                                          <legend>   
+                                                       Your Details:
+                                          </legend>
+                                          <label>
+                                                       Name: <input type="text" name="name"size="30"maxlength="100">
+                                          </label> <br>
+                                          <label>
+                                                      Email: <input type="email" name="email"size="30"maxlength="100">
+                                          </label> <br>
+                           </fieldset> <br>
+                           <fieldset>
+                                         <legend> 
+                                                      Your Review:
+                                        </legend>
+                                        <label>
+                                                     How did you hear about us? 
+                                                    <select name="source">
+                                                                      <option value="Google">Google</option>
+                                                                      <option value="newspaper">Newspaper</option>
+                                                    </select>
+                                       </label> <br>
+                                                  <p>Would you visit again?</p>
+                                                    <input type="radio" name="review" value="yes">Yes
+                                                    <input type="radio" name="review" value="no">No
+                                                    <input type="radio" name="review" value="maybe">Maybe<br>
+                                                  Comments: <br>
+                                                    <textarea style="width:250px; height:100px;">
+                                                    </textarea>  <br><br>
+                                                    <input type="checkbox">Sign me up for email updates<br>
+                                                    <input type="button" value="SubmitReview">
+                                 </fieldset>
+                      </form>
+           </body>
+</html>
